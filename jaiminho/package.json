@@ -1,0 +1,19 @@
+{
+  "name": "trello-jaiminho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "faker": "^4.1.0",
+    "nodemailer": "^6.2.1",
+    "nodemon": "^1.19.1",
+    "dotenv": "^8.2.0"
+  }
+}
