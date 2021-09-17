@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on win32)" generated="20210916 20:59:50.833" rpa="true" schemaversion="2">
+<suite id="s1" name="Preps" source="C:\qaninja\robot-ms-trello\tasks\tests\tasks\Preps.robot">
+<test id="s1-t1" name="Genesis">
+<kw name="Clear Database" library="database">
+<status status="PASS" starttime="20210916 20:59:51.082" endtime="20210916 20:59:51.603"/>
+</kw>
+<kw name="Seed Users" library="database">
+<status status="PASS" starttime="20210916 20:59:51.603" endtime="20210916 20:59:51.727"/>
+</kw>
+<status status="PASS" starttime="20210916 20:59:51.074" endtime="20210916 20:59:51.727"/>
+</test>
+<doc>Arquivo de preparação de massa para testes</doc>
+<status status="PASS" starttime="20210916 20:59:50.836" endtime="20210916 20:59:51.730"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Preps">Preps</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
